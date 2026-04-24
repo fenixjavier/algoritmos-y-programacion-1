@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Ejercicio2;
+package Ejercicios;
 
 import java.util.Scanner;
 
@@ -75,5 +75,7 @@ public class Ejercicio2 {
         System.out.println("Precio promedio: " + sumaDePrecios / cantidadDeProductos);
         System.out.println("Productos que cuestan mas de 5000: " + cuantosCuestanMasDe5000);
         System.out.println("Porcentaje de productos que terminan en 99: " + (terminanCon99 * 100) / cantidadDeProductos);
+
+        in.close();
     }
 }

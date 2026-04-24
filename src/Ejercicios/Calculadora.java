@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Calculadora;
+package Ejercicios;
 
 import java.util.Scanner;
 
@@ -40,7 +40,7 @@ public class Calculadora {
             System.out.print("Ingrese el segundo número: ");
             num2 = in.nextDouble();
 
-            switch(op) {
+            switch (op) {
                 case 1:
                     System.out.println("Resultado de la suma: " + suma(num1, num2));
                     break;
@@ -60,6 +60,7 @@ public class Calculadora {
         }
 
         System.out.println("Adiós!");
+        in.close();
     }
 
     // Suma
